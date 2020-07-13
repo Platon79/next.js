@@ -1,8 +1,8 @@
 import MainLayout from '../../components/MainLayout'
 
-export default function Hello () {
+export default function Posts () {
   return (
-    <MainLayout>
+    <MainLayout title="Posts page">
       <h1>Posts page</h1>
     </MainLayout>
   )

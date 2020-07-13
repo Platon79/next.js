@@ -10,7 +10,7 @@ export default function MainLayout ({children, title = 'Next App'}) {
         <meta description="Test application to learn next js basics" />
         <meta keywords="js,javascript,react,next" />
       </Head>
-      <nav>
+      <nav className="main-nav">
         <Link href={'/'}><a>Home</a></Link>
         <Link href={'/about'}><a>About</a></Link>
         <Link href={'/posts'}><a>Posts</a></Link>
